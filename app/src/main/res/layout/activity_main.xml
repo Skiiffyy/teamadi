@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/L100" />
+
+    <View
+        android:id="@+id/main_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/illustration_started"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="181dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120sp"
+        android:layout_marginTop="614dp"
+        android:backgroundTint="@color/A300"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/btn_start"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+
+        tools:ignore="TextSizeCheck"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="action_settings"></string>
+    <string name="app_name">Adiaphora Quiz Application</string>
+    <string name="bg_4">bg4</string>
+    <string name="sub_title">
+    <font color="#558B2F"><b> CLICK LOGIN</b></font>
+    <br>
+    If you already have an account.
+    </br>
+
+</string>
+    <string name="email_log">Email</string>
+    <string name="pass_log">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="createacc_title">Create an Account</string>
+    <string name="register_sub_title">
+    <font color="#FF3700B3"><b>CLICK REGISTER</b></font>
+    <br>
+        to get started with the app.
+    </br>
+
+</string>
+    <string name="FULL_NAME">enter your name</string>
+    <string name="signup_email">enter your email</string>
+    <string name="Full_name">Type your name</string>
+    <string name="sign_email">type your email</string>
+    <string name="log_in">LOG IN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="btn_start">GET STARTED</string>
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="sign_name">Name</string>
+    <string name="sign_email1">Email</string>
+    <string name="retype_your_password">retype your password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="home_loggedin">You are now Logged In</string>
+    <string name="btn_logout">LOG OUT</string>
+    <string name="forgot_pw">FORGOT PASSWORD?</string>
+    <string name="phone_num">enter phone number</string>
+    <string name="type_your_phone_number">Phone number</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="reset">RESET</string>
+    <string name="reset_your_password">RESET YOUR PASSWORD</string>
+
+    <string name="back_to_log_in">
+        Back to <font color="#228B22"><b>Log in</b></font>
+    </string>
+
+</resources>

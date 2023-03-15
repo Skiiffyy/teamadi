@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753631253693",
+    "project_id": "adiaphora-quiz-app",
+    "storage_bucket": "adiaphora-quiz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753631253693:android:3a5e8c44c2d6b3a24393d4",
+        "android_client_info": {
+          "package_name": "com.example.adiaphora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753631253693-qhcc8eqrivnohspf9no8qlds900emqjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQTh4ZhopmQXQsnWT7Exrq4ynvIweF9vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753631253693-qhcc8eqrivnohspf9no8qlds900emqjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
