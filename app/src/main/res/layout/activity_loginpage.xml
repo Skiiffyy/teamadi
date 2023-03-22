@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Background"
+    android:background="@drawable/minimalist2"
     android:padding="20dp"
     tools:context=".Loginpage">
 
@@ -15,6 +15,7 @@
         android:contentDescription="logoagain"
         android:src="@drawable/illustration_started"
         tools:ignore="MissingConstraints"
+        android:alpha="0.7"
         tools:layout_editor_absoluteX="-21dp"
         tools:layout_editor_absoluteY="-30dp" />
 
@@ -60,6 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height ="50dp"
             android:backgroundTint="@color/L100"
+            android:background="@drawable/roundbtn"
             android:textColor="@color/TextColor"
             tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
@@ -73,7 +75,10 @@
         android:hint="@string/pass_log"
         app:layout_constraintTop_toBottomOf="@+id/log_email"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="4dp">
+        tools:layout_editor_absoluteX="4dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_pass"
@@ -81,6 +86,7 @@
             android:layout_height="50dp"
             android:inputType="textPassword"
             android:backgroundTint="@color/L100"
+            android:background="@drawable/roundbtn"
             android:textColor="@color/TextColor"
             tools:ignore="MissingConstraints" />
 

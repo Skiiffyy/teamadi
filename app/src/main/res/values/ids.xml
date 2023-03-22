@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="firstNameInput" type="id">firstName</item>
+    <item name="lastNameInput" type="id">lastName</item>
+</resources>

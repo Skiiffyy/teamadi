@@ -13,11 +13,26 @@
     <TextView
         android:id="@+id/home_title"
         android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginVertical="5dp"
         android:layout_height="wrap_content"
         android:text="@string/home_loggedin"
         android:textAlignment="center"
         android:textColor="@color/D800"
-        android:textSize="30sp" />
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/home_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_txt"
+        android:textColor="@color/D800"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50sp"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp"
+
+        />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/logbtn"
@@ -25,12 +40,67 @@
         android:layout_width="374dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="610dp"
-        android:background="@color/A300"
+        android:background="@drawable/roundbtn"
         android:text="@string/btn_logout"
         android:textColor="@color/white"
         android:textSize="15dp"
         android:textStyle="bold"
         tools:ignore="SpUsage,TextContrastCheck,TextSizeCheck,VisualLintButtonSize" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentLeft="true"
+
+        app:srcCompat="@drawable/htmllogo"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/csslogo"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="163dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/jslogo"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="162dp"
+        android:layout_height="165dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/javalogo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="149dp"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/clogo"
+        android:layout_marginTop="445dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="148dp"
+        android:layout_height="224dp"
+        app:srcCompat="@drawable/phplogo"
+        android:layout_marginTop="400dp"
+        android:layout_alignParentRight="true"
+        />
 
 
 </RelativeLayout>

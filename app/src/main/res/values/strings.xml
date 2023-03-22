@@ -1,5 +1,5 @@
 <resources>
-    <string name="action_settings"></string>
+    <string name="action_settings" />
     <string name="app_name">Adiaphora Quiz Application</string>
     <string name="bg_4">bg4</string>
     <string name="sub_title">
@@ -32,7 +32,8 @@
     <string name="sign_email1">Email</string>
     <string name="retype_your_password">retype your password</string>
     <string name="confirm_password">Confirm password</string>
-    <string name="home_loggedin">You are now Logged In</string>
+    <string name="home_loggedin"> Start your programming/coding journey! </string>
+    <string name="home_txt"> Programming Languages you can  learn and practice </string>
     <string name="btn_logout">LOG OUT</string>
     <string name="forgot_pw">FORGOT PASSWORD?</string>
     <string name="phone_num">enter phone number</string>
@@ -43,6 +44,8 @@
 
     <string name="back_to_log_in">
         Back to <font color="#228B22"><b>Log in</b></font>
+    </string>
+    <string name="terms_and_conditions">Agree with <font color="#228B22"><b>Terms &amp; Conditions</b></font>
     </string>
 
 </resources>

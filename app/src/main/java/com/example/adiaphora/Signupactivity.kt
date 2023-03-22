@@ -6,6 +6,7 @@ import android.database.Observable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
+import android.widget.EditText
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.example.adiaphora.databinding.ActivityMainBinding
@@ -106,6 +107,8 @@ passwordConfirmStream.subscribe {
     private fun showNameExistAlert(isNotValid: Boolean){
         binding.enterFullname.error = if(isNotValid) "Name cannot be empty!" else null
     }
+
+
 
     private fun showTextMinimalAlert(isNotValid: Boolean, text: String){
         if (text == "email")
